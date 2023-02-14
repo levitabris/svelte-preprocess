@@ -18,6 +18,10 @@ export type Coffeescript = {
   bare?: never;
 } & ContentModifier;
 
+export type Civet = {
+  sourceMap?: boolean;
+} & ContentModifier;
+
 export type Postcss = postcss.ProcessOptions & {
   plugins?: postcss.AcceptedPlugin[];
   // custom

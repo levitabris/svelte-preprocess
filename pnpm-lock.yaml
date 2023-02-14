@@ -5,6 +5,7 @@ specifiers:
   '@babel/preset-env': ^7.20.2
   '@commitlint/cli': ^11.0.0
   '@commitlint/config-conventional': ^11.0.0
+  '@danielx/civet': ^0.5.71
   '@kiwi/eslint-config': ^2.0.2
   '@kiwi/prettier-config': ^2.0.2
   '@types/babel__core': ^7.1.20
@@ -51,6 +52,7 @@ devDependencies:
   '@babel/preset-env': 7.20.2_@babel+core@7.20.5
   '@commitlint/cli': 11.0.0
   '@commitlint/config-conventional': 11.0.0
+  '@danielx/civet': 0.5.71
   '@kiwi/eslint-config': 2.0.2_ozs2z7ghvqobfcpffymkjdxn2i
   '@kiwi/prettier-config': 2.0.2_prettier@2.8.1
   '@types/babel__core': 7.1.20
@@ -1400,6 +1402,12 @@ packages:
   /@commitlint/types/11.0.0:
     resolution: {integrity: sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==}
     engines: {node: '>=v10.22.0'}
+    dev: true
+
+  /@danielx/civet/0.5.71:
+    resolution: {integrity: sha512-CETA4shic6BgPDJVAg1Ivcu8s0Pg8uQHUbT5rOp7pwn0NnkyMwnUbgXMBqRfKL3MWYgz+1tYehH39+PrAu4CNw==}
+    engines: {node: '>=19 || ^18.6.0 || ^16.17.0'}
+    hasBin: true
     dev: true
 
   /@eslint/eslintrc/1.3.3:

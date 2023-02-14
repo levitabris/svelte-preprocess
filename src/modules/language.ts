@@ -15,6 +15,9 @@ const LANGUAGE_DEFAULTS: Record<string, any> = {
   coffeescript: {
     stripIndent: true,
   },
+  civet: {
+    stripIndent: true,
+  },
   stylus: {
     stripIndent: true,
   },
