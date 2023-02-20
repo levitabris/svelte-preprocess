@@ -9,6 +9,7 @@ export default exports = module.exports = sveltePreprocess;
 // stand-alone processors to be included manually */
 export { default as pug } from './processors/pug';
 export { default as coffeescript } from './processors/coffeescript';
+export { default as civet } from './processors/civet';
 export { default as typescript } from './processors/typescript';
 export { default as less } from './processors/less';
 export { default as scss, default as sass } from './processors/scss';

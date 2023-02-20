@@ -20,7 +20,7 @@ specifiers:
   conventional-changelog-cli: ^2.2.2
   detect-indent: ^6.1.0
   eslint: ^8.29.0
-  husky: ^8.0.2
+  husky: ^8.0.0
   jest: ^27.5.1
   less: ^3.13.1
   lint-staged: ^10.5.4

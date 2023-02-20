@@ -57,6 +57,7 @@ export interface Transformers {
   stylus?: TransformerOptions<Options.Stylus>;
   postcss?: TransformerOptions<Options.Postcss>;
   coffeescript?: TransformerOptions<Options.Coffeescript>;
+  civet?: TransformerOptions<Options.Civet>;
   pug?: TransformerOptions<Options.Pug>;
   globalStyle?: Options.GlobalStyle;
   replace?: Options.Replace;

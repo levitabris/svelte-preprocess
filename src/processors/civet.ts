@@ -4,7 +4,7 @@ import { prepareContent } from '../modules/prepareContent';
 
 import type { PreprocessorGroup, Options } from '../types';
 
-export default (options?: Options.Coffeescript): PreprocessorGroup => ({
+export default (options?: Options.Civet): PreprocessorGroup => ({
   async script(svelteFile) {
     const { transformer } = await import('../transformers/civet');
 
